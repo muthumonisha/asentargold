@@ -14,7 +14,7 @@
 <body>
     <div class="contact-bg">
     </div>
-    <div class="container form-container mb-5">
+    <div class="container contact-box mb-5">
         <div class="row justify-content-center">
             <div class="col-11 col-md-9 col-lg-6 col-xl-9 bg-white border p-lg-5 px-3 py-4">
                 <div class="sec-heading">

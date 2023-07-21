@@ -1,6 +1,5 @@
-<?php include 'head.php'; ?>
-<head>
-    <style>
+<?php include 'head.php' ?>
+     <style>
         .login-bg{
             background:url("images/hero-image.jpg");
             background-position: center;
@@ -12,9 +11,11 @@
             top: -80px;
         }
     </style>
+
 </head>
+
 <body>
-<section class="login-bg vh-100">
+  <section class="login-bg vh-100">
     <div class="container vh-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col">
@@ -25,21 +26,21 @@
                     <div class="col-12 col-md-9 col-lg-7 col-xl-4 login-box border">
                         <div class="user_card">
 			                <div class="d-flex justify-content-center">
-				                <div class="brand_logo_container red-gradient mb-3">
+				                <div class="brand_logo_container mb-3">
 					                <img src="images/userimg.png" class="brand_logo" alt="Logo">
 				                </div>
 			                </div>
 			                <div class="p-4">
 			                    <form class="form-container">
-                                    <div class="input-group mb-4">
+                                    <div class="input-group mb-4">            <!-- username -->
                                         <span class="input-group-text"><i class="fas fa-user p-2"></i></span>
                                         <input type="text" name="" class="form-control input-style" value="" placeholder="Username">
                                     </div>
-                                    <div class="input-group mb-4">
+                                    <div class="input-group mb-4">             <!-- password -->
                                         <span class="input-group-text"><i class="fas fa-lock p-2"></i></span>
                                         <input type="text" name="" class="form-control input-style" value="" placeholder="Password">
                                     </div>
-                                    <div class="input-group mb-4">
+                                    <div class="input-group mb-4">              <!-- security code -->
                                         <span class="input-group-text"><i class="fas fa-lock p-2"></i></span>
                                         <input type="text" name="" class="form-control input-style" value="" placeholder="Security Code">
                                     </div>
@@ -60,4 +61,5 @@
 </section>
 </body>
 
-</html>
+
+
