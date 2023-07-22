@@ -7,12 +7,16 @@
     <!--popup content-->
     <div id="popupContainer">
         <div class="popupContent col-12 col-md-9 col-lg-7 col-xl-3">
-            <div class="qr-popup-head red-gradient d-flex p-3" style="border-radius:5px 5px 0px 0px;">
-                <h5 class="text-center text-white">QR Links</h5>
-                <i class="fas fa-close text-white ms-auto my-auto" id="closePopupBtn"></i>
+            <div class="qr-popup-head red-gradient py-3" style="border-radius:5px 5px 0px 0px;">
+                <div class="popup-title" style="position:relative">
+                    <h4 class="text-center text-white"><b>QR Links</b></h4>
+                    <div class="close-btn" style="position:absolute;left:95%;top:2px;">
+                    <i class="fas fa-close text-white ms-auto my-auto" id="closePopupBtn"></i>
+                    </div>
+                </div>
             </div>
             
-            <div class="qr-popup-body py-3">
+            <div class="qr-popup-body py-3 px-3">
                 <ul id="tabContainer" class="d-flex justify-content-center mb-4">
                     <li class="tab active-tab" onclick="showTabContent(0)">Referral QR & Links</li>
                     <li class="tab" onclick="showTabContent(1)">Consumer Landing QR</li>
@@ -20,14 +24,30 @@
 
                 <div class="tab-content active">
                     <p class="text-center fw-bold"><small>Use this QR code to register your New Channel Partners</small></p>
-                        <div class="d-flex justify-content-center mt-3">
-				 	        <button type="button" class="submit-btn">Copy Link</button>
+                        <div class="mt-3">
+                            <div class="copyurl d-flex justify-content-center ">
+                                <img src="images/qrcode.png" alt="qrcode">
+                            </div>
+                            <div class="copyurl d-flex justify-content-center mt-4">
+                                <p class="px-4 py-2" style="background-color:#e8e8e8">https://copyme-qrcode-customer.asentargold.com</p>
+                            </div>
+                            <div class="copyurl d-flex justify-content-center mt-3">
+                                <button type="button" class="submit-btn">Copy Link</button>
+                            </div>
 				        </div>
                 </div>
                 <div class="tab-content">
-                    <p class="text-center fw-bold"><small>Use this QR code to register your New Channel Partners</small></p>
-                        <div class="d-flex justify-content-center mt-3">
-				 	        <button type="button" class="submit-btn">Copy Link</button>
+                    <p class="text-center fw-bold"><small>Use this QR code to for your retail customers.</small></p>
+                        <div class="mt-3">
+                            <div class="copyurl d-flex justify-content-center ">
+                                <img src="images/qrcode.png" alt="qrcode">
+                            </div>
+                            <div class="copyurl d-flex justify-content-center mt-4">
+                                <p class="px-4 py-2" style="background-color:#e8e8e8">https://copyme-qrcode-customer.asentargold.com</p>
+                            </div>
+                            <div class="copyurl d-flex justify-content-center mt-3">
+                                <button type="button" class="submit-btn">Copy Link</button>
+                            </div>
 				        </div>
                 </div>
                 <hr>

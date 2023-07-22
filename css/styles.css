@@ -4,6 +4,7 @@
     padding:0px;
     box-sizing:border-box;
 }
+
 .section-image{
     background-color:#ededed;
 }
@@ -61,6 +62,7 @@
 .nav-link{
     margin-left: 30px;
 }
+
 /********** Dropdown menu css ***************/
 .dropdown:hover > .dropdown-menu,
 .dropend:hover > .dropdown-menu {
@@ -98,9 +100,7 @@
 .dropdown-item{
     padding:15px 20px 15px 20px;
 }
-.dropdown-menu .show .nav-link#listingDropdown {
-    color: #007bff;
-  }
+
 /***************** footer ********************/
 .footer-section{
     background-color:#2d2f30;
@@ -328,12 +328,12 @@ button {
 }
 
 /** */
-ul {
+.qr-popup-body ul {
     list-style: none;
     padding: 0;
 }
 
-li {
+.qr-popup-body li {
     cursor: pointer;
     display: inline-block;
     padding: 10px;
@@ -371,4 +371,7 @@ li {
     border-radius: 50%;
     color: #fff;
     text-decoration:none;
+}
+.form-check-input:checked + .form-check-label {
+    font-weight: bold;
 }

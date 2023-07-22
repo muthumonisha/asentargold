@@ -8,7 +8,6 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
     </style>
 </head>
 <body>
@@ -24,11 +23,11 @@
                     <div class="col-lg-6 pb-4 px-lg-4 d-flex"><!-- check-box start-->
                         <div class="form-check pe-5">
                             <input class="form-check-input" type="radio" name="radioBox" id="radio1" checked>
-                            <label class="form-check-label fw-bold" for="radio1">By Package</label>
+                            <label class="form-check-label" for="radio1">By Package</label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="radioBox" id="radio2">
-                            <label class="form-check-label fw-bold" for="radio2">By Pin</label>
+                            <label class="form-check-label" for="radio2">By Pin</label>
                         </div>
                     </div><!-- check-box end -->
             

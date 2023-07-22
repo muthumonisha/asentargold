@@ -67,7 +67,7 @@
 
     <div class="row gy-2">
         <div class="col-lg-6 px-lg-5 py-lg-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>
@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="col-lg-6 px-lg-5 py-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>
@@ -112,7 +112,7 @@
     <!-- Row2 -->
     <div class="row gy-2">
         <div class="col-lg-6 px-lg-5 py-lg-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>
@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="col-lg-6 px-lg-5 py-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>
@@ -157,7 +157,7 @@
     <!-- Row2 -->
     <div class="row gy-2">
         <div class="col-lg-6 px-lg-5 py-lg-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>
@@ -178,7 +178,7 @@
             </div>
         </div>
         <div class="col-lg-6 px-lg-5 py-3">
-            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100">
+            <div class="row d-flex justify-content-center align-items-center image-box px-lg-5 py-lg-3 h-100 mx-1 mx-lg-0">
                 <div class="icon-sec d-flex justify-content-end">
                     <span class="fas fa-ellipsis-h"></span>
                 </div>

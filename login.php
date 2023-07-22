@@ -1,4 +1,5 @@
 <?php include 'head.php' ?>
+<head>
      <style>
         .login-bg{
             background:url("images/hero-image.jpg");
@@ -53,7 +54,7 @@
                                     <div class="input-group">              
                                         <span class="input-group-text"><i class="fas fa-lock p-2"></i></span>
                                         <input type="text" class="form-control input-style" id="securityCode" placeholder="Security code" required="">
-                                        <span class="input-group-addon" style="background-color:#ededed"><img id="captchaImage" src="captcha.php?"><i class="fa fa-refresh" style="cursor:pointer;margin-left:5px"></i></span>
+                                        <span class="input-group-addon" style="background-color:#ededed;padding-top:12px;"><img id="captchaImage" src="captcha.php?"><i class="fa fa-refresh" style="cursor:pointer;margin-left:5px"></i></span>
                                     </div>
                                     <small id="security-error" class="security-message"></small>
                                 </div>
